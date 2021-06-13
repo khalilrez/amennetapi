@@ -7,9 +7,8 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/amennet
-    password: admin
-    username: postgres
+    url: jdbc:postgresql://amennet.postgres.database.azure.com:5432/amennetapi?user=postgres@amennet&password=khalilREZGUI2@&sslmode=require
+
   jpa:
     show-sql: true
     hibernate:
